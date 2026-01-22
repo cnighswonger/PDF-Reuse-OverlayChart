@@ -19,6 +19,12 @@ WriteMakefile(
                 web => 'https://github.com/cnighswonger/PDF-Reuse-OverlayChart/issues',
             },
         },
+        provides => {
+            'PDF::Reuse::OverlayChart' => {
+                file    => 'OverlayChart.pm',
+                version => '0.05',
+            },
+        },
     },
     ($] >= 5.005 ?
       (AUTHOR     => [ 'Lars Lundberg larslund@cpan.org',

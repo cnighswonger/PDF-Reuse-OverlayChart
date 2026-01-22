@@ -1,5 +1,9 @@
 Revision history for Perl extension PDF::Reuse::OverlayChart.
 
+0.05  Thu Jan 22 2026
+      Address CPANTS Kwalitee metrics: add provides, LICENSE,
+      SECURITY.md, CONTRIBUTING.md
+
 0.04  Thu Jan 22 2026
       Added GitHub repository and bugtracker metadata
 
